@@ -1,11 +1,25 @@
+import { useEffect, useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { fetchComics } from './marvel';
 
 function App() {
+  const [comics, setComics] = useState('')
+
+  useEffect(() => {
+    getComics()
+  }, [])
+
+  const getComics = async () => {
+    const result = await fetchComics()
+    setComics(result)
+  }
+  
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <img src={comics} alt="comic img"/>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
