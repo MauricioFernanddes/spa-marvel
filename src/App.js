@@ -55,7 +55,7 @@ function App() {
     <div className="App">
       <form onSubmit={handleSearch}>
         <label>
-          Search comics by title:
+          Procurar quadrinhos por título:
           <input type="text" name="search" />
         </label>
         <button type="submit">Search</button>
