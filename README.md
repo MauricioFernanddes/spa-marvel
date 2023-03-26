@@ -1,12 +1,9 @@
-spa# Getting Started with Create React App
+spa-marvel# Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Projeto ainda em desenvolvimento! Más já conta com uma lista de quadrinhos retornando da API da Marvel e é gerado um modal de informações de cada quadrinho clicado. 
 
-## Available Scripts
-
-# Entendendo decisões arquiteturais e a estrutura do projeto
+# Aplicação usando API da Marvel, retornando uma lista de quadrinhos e o modal de descrições quando clicado.
 
 ## Requisitos para rodar o projeto
 
@@ -20,3 +17,6 @@ Projeto ainda em desenvolvimento! Más já conta com uma lista de quadrinhos ret
 - Rode `npm install`
 - Rode `npm start`
 - Pronto 🎉
+### Estrutura do projeto
+
+- 
