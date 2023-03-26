@@ -6,12 +6,17 @@ Projeto ainda em desenvolvimento! Más já conta com uma lista de quadrinhos ret
 
 ## Available Scripts
 
-In the project directory, you can run:
+# Entendendo decisões arquiteturais e a estrutura do projeto
 
-### `npm start`
+## Requisitos para rodar o projeto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Setup de ambiente:
+- [Node LTS](https://nodejs.org/en/)
+- [Yarn 1.x](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Como rodar na minha máquina?
+
+- Clone o projeto `git clone git@github.com:MauricioFernanddes/spa-marvel.git`
+- Rode `npm install`
+- Rode `npm start`
+- Pronto 🎉
