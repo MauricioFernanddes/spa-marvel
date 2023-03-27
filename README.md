@@ -9,7 +9,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### Setup de ambiente:
 - [Node LTS](https://nodejs.org/en/)
-- [Yarn 1.x](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable)
+- [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
 ### Como rodar na minha máquina?
 
